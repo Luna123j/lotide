@@ -13,21 +13,21 @@ const eqArrays = function(arr1, arr2) {
 
 const assertArraysEqual = function(arr1, arr2) {
   if (eqArrays(arr1, arr2)) {
-    console.log(`${String.fromCodePoint(0x1F600)}The two array are equal.`);
+    console.log(`😃 The two array are equal.`);
   } else {
-    console.log(`${String.fromCodePoint(0x274E)}The two array are not equal.`);
+    console.log(`❌ The two array are not equal.`);
   }
 
 };
 
-
+module.exports = assertArraysEqual;
 
 
 //TEST CODE
-assertArraysEqual([1, 2, 3], [1, 2, 3]);
-assertArraysEqual([1, 2, 6], [1, 2, 3]);
-assertArraysEqual(['1', '2', '3'], [1, 2, 3]);
-assertArraysEqual([1, 2], [1, 2, 3]);
+// assertArraysEqual([1, 2, 3], [1, 2, 3]);
+// assertArraysEqual([1, 2, 6], [1, 2, 3]);
+// assertArraysEqual(['1', '2', '3'], [1, 2, 3]);
+// assertArraysEqual([1, 2], [1, 2, 3]);
 
 
 

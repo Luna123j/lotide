@@ -1,7 +1,7 @@
 const findKeyByValue = require("../findKeyByValue");
 const expect = require("chai").expect;
 
-describe("Test eqArrays.js", () => {
+describe("Test findKeyByValue.js", () => {
 
   it("should return its key for specific key value", () => {
     const bestTVShowsByGenre = {
